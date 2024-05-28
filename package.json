@@ -1,0 +1,23 @@
+{
+  "name": "notepad-shop",
+  "version": "1.0.0",
+  "description": "Test framework",
+  "scripts": {
+    "test": "npx playwright test",
+    "allure-report": "npx allure serve reports/allure-results",
+    "pretty": "prettier --write \"**/*.ts\" ",
+    "lint": "eslint \"**/*.ts\" "
+  },
+  "author": "Uladzimir Makarau",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.12.12",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^2.15.1",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0",
+    "prettier": "3.2.5",
+    "typescript-eslint": "^7.11.0"
+  }
+}
